@@ -12,9 +12,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>!Support</title>
+    
 </head>
 
-<body>
+<body class="light-theme">
     <header class="header">
         <nav>
             <div class="logo">
@@ -23,6 +24,14 @@
             </div>
             <div>
                 <ul class="links">
+                    <li class="links-item">
+                        <img src="image/sun.png" alt="">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <img src="image/moon.png" alt="">
+                    </li>
                     <li class="links-item"><a href="#help">Помощь</a></li>
                     <li class="links-item"><a href="news.html">Новости</a></li>
                     <li class="links-item"><a href="company.html">Компания</a></li>
@@ -44,10 +53,13 @@
                         </p>
                     </div>
                     <div class="icons">
-                        <i class="fa fa-phone"></i>
-                        <i class="fa fa-paperclip"></i>
-                        <i class="fa fa-globe"></i>
-                        <i class="fa fa-computer"></i>
+                        <i class="fa fa-phone tooltip"><span class="tooltiptext">Можно позвонить (номер в конце
+                                страницы)</span></i>
+                        <i class="fa fa-paperclip tooltip"><span class="tooltiptext">Все услуги оказываемые физически
+                                подкреплены документами</span></i>
+                        <i class="fa fa-globe tooltip"><span class="tooltiptext">У нас большая сеть офисов</span></i>
+                        <i class="fa fa-computer tooltip"><span class="tooltiptext">Готовы помочь с любой
+                                техникой</span></i>
                     </div>
                 </div>
             </div>
