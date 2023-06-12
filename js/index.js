@@ -43,10 +43,11 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-// Выбираем кнопку
-const btn = document.querySelector('.slider');
-// Отслеживаем щелчок по кнопке
-btn.addEventListener('click', function () {
-    // Затем переключаем (добавляем/удаляем) класс .dark-theme для body
-    document.body.classList.toggle('dark-theme');
-})
+document.addEventListener("DOMContentLoaded", function () {
+    // code related to dark mode toggle button should go here
+    const btn = document.querySelector(".slider");
+
+    btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark-theme");
+    });
+});
